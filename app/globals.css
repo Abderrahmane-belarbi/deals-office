@@ -25,3 +25,46 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'rubik';
+  src: url('/fonts/RubikVariableFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lalezar';
+  src: url('/fonts/LalezarRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'amiri';
+  src: url('/fonts/AmiriRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geist';
+  src: url('/fonts/GeistVF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'handjet';
+  src: url('/fonts/HandjetVariableFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'marhey';
+  src: url('/fonts/MarheyVariableFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.thin-border {
+  @apply border border-gray-400 transition-colors;
+}
+.regular-input {
+  @apply thin-border outline-none font-marhey font-medium text-gray-900 bg-gray-200/50 rounded-lg p-2 focus-visible:ring-0 placeholder:text-gray-500 transition-colors;
+}
